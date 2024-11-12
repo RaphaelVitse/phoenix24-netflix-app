@@ -1,14 +1,14 @@
 // import logo from "./img/";
-import logo from "./img/logo-netflix.png";
+// import logo from "./img/logo-netflix.png";
 
-const Header = () => {
-  return (
-    <header>
-      <div>
-        <img src={logo} alt="logo neflix" />
-      </div>
-    </header>
-  );
-};
+// const Header = () => {
+//   return (
+//     <header>
+//       <div>
+//         <img src={logo} alt="logo neflix" />
+//       </div>
+//     </header>
+//   );
+// };
 
-export default Header;
+// export default Header;

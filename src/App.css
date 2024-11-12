@@ -3,13 +3,39 @@
 }
 
 body {
-  background: #000;
+  background: black;
+  margin-left: 35px;
 }
 
-p {
+header {
+  /* background: lightcoral; */
+  padding-left: 15px;
+}
+header img {
+  width: 100px;
+}
+
+section {
+  /* background: green; */
+}
+
+.category {
+  /* background: lightskyblue; */
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-img {
-  width: 200px;
+.gallery {
+  display: flex;
+  overflow: scroll;
+  margin-bottom: 40px;
+}
+.gallery img {
+  height: 192px;
+  object-fit: cover;
 }
