@@ -1,6 +1,6 @@
 import data from "../assets/movies.json";
 
-const Section = (props) => {
+const Section = () => {
   return (
     <>
       {data.map((elem) => {
