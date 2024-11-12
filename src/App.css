@@ -4,12 +4,11 @@
 
 body {
   background: black;
-  margin-left: 35px;
+  margin-left: 50px;
 }
 
 header {
   /* background: lightcoral; */
-  padding-left: 15px;
 }
 header img {
   width: 100px;
@@ -32,10 +31,10 @@ section {
 
 .gallery {
   display: flex;
-  overflow: scroll;
+  overflow-x: scroll;
   margin-bottom: 40px;
 }
 .gallery img {
-  height: 192px;
+  height: 124px;
   object-fit: cover;
 }
