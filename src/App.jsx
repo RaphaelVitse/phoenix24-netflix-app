@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <Section />
+      <Section data={data} />
       {/* <section>
         {data.map((elem) => {
           return (

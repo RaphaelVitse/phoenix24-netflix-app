@@ -5,6 +5,7 @@
 body {
   background: black;
   margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* header {
@@ -37,4 +38,13 @@ header img {
 .gallery img {
   height: 124px;
   object-fit: cover;
+}
+
+@media (max-width: 330px) {
+  .gallery img {
+    height: 100px;
+  }
+  .category {
+    font-size: 16px;
+  }
 }

@@ -1,15 +1,13 @@
-import data from "../assets/movies.json";
-
-const Section = () => {
+const Section = (props) => {
   return (
     <>
-      {data.map((elem) => {
+      {props.data.map((elem, index) => {
         return (
-          <section>
-            <h2 key={elem.category} className="category">
+          <section key={elem.category}>
+            <h2 key={index} className="category">
               {elem.category}
             </h2>
-
+            s
             <div className="gallery">
               {elem.images.map((img, index) => {
                 return <img key={index} src={img} alt="" />;
