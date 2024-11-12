@@ -1,15 +1,15 @@
 import "./App.css";
-import Header from "./components/Header";
-import logo from "./img/";
+import logo from "./img/logo-netflix.png";
 
-function App() {
+const App = () => {
   return (
     <>
-      <Header />
-
-      <div></div>
+      <div>
+        <img src={logo} alt="logo netflix" />
+        <p>je suis un paragraphe</p>
+      </div>
     </>
   );
-}
+};
 
 export default App;
