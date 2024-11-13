@@ -8,26 +8,9 @@ function App() {
   return (
     <>
       <Header />
-      <Section data={data} />
-      {/* <section>
-        {data.map((elem) => {
-          return (
-            <>
-              
-
-              <h2 key={elem.category} className="category">
-                {elem.category}
-              </h2>
-
-              <div className="gallery">
-                {elem.images.map((img, index) => {
-                  return <img key={index} src={img} alt="" />;
-                })}
-              </div>
-            </>
-          );
-        })}
-      </section> */}
+      {data.map((elem) => {
+        return <Section elem={elem} key={elem.category} />;
+      })}
     </>
   );
 }
